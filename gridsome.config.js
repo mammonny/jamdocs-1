@@ -36,7 +36,7 @@ module.exports = {
             shortName: 'Gridsome',
             themeColor: '#666600',
             backgroundColor: '#ffffff',
-            icon: 'src/favicon.png', // must be provided like 'src/favicon.png'
+            icon: 'logo-520.png', // must be provided like 'src/favicon.png'
             msTileImage: '',
             msTileColor: '#666600'
         }
