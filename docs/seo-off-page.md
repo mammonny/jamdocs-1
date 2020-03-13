@@ -1,14 +1,14 @@
 ---
-title: Theme configuration 
+title: Seo Off-Page 
 date: 2018-09-15 07:42:34
-slug: theme-configuration
+slug: seo-off-page
 ---
 
-## Changing logo
+## Autoridad
 Since there is a bright and a dark theme in Jamdocs, you will need two logotypes. Just replace the two svg files in `src/assets/img` where the dark on is named `logo-dark.svg` and the bright one is named `logo-bright.svg`. If you can´t provide SVG logos, you can just change the file format to for example PNG in line 5 and 10 `src/components/Logo.vue`.
 
 
-## Adding icons
+## Trust
 If you need to use icons somewhere in the theme, you can use any icon from [Feather Icons](https://feathericons.com/) as a component. All that is needed is that you import the icon in the component you want to use it like i do it in the theme switcher component:
 
 ```javascript
@@ -28,7 +28,7 @@ And then the icon can be used like this:
 <sun-icon class="sun" />
 ```
 
-## Changing colors
+## Historia
 To change the theme colors you need to edit the file `src/assets/scss/config/_colors.scss`. When you open the file for the first time it will look like this:
 
 ```scss
@@ -67,7 +67,7 @@ font-family: 'Open Sans', sans-serif;
 
 You're done!
 
-## Edit the sidebar
+## LinkBuilding
 
 To edit the sidebar, open the file `data/settings.json`. In this file you will find global theme settings as objects and arrays. The sidebar is edit by adding an sections. A section object looks like this:
 

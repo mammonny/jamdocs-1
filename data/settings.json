@@ -1,24 +1,24 @@
 {
   "sidebar": [
     {
-      "section": "Introduction",
+      "section": "Introducción",
       "topics": [
         {
-          "title": "Getting started",
-          "slug": "getting-started"
+          "title": "Qué es el SEO",
+          "slug": "que-es-seo"
         }
       ]
     },
     {
-      "section": "Setup",
+      "section": "Técnico",
       "topics": [
         {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
+          "title": "Seo On-Page",
+          "slug": "seo-on-page"
         },
         {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
+          "title": "Seo Off-Page",
+          "slug": "seo-off-page"
         }
       ]
     }

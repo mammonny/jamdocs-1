@@ -1,14 +1,14 @@
 ---
-title: Getting started
+title: Qué es el SEO
 date: 2018-09-15 07:42:34
-slug: getting-started
+slug: que-es-seo
 ---
 
-## What is Jamdocs
+## Que es el SEO
 
 Jamdocs is a documentation theme for Gridsome, built to spin up quick, beautiful and static documentation sites fast without hassle. Since there is no theming system for Gridsome yet, Jamdocs comes with Gridsome, plug-ins and packages as dependencies.
 
-## Local installation
+## Beneficios del SEO
 
 Even though Jamdocs is so simple, you dont really need to set it up localy (you could just fork it on github to edit styles and md-files) - if you want to change it up a bit I recommend setting up localy for a better developer experience.
 
