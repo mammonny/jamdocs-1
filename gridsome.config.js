@@ -34,11 +34,11 @@ module.exports = {
             serviceWorkerPath: 'sw.js',
             cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
             shortName: 'Gridsome',
-            themeColor: '#666600',
+            themeColor: '#10c186',
             backgroundColor: '#ffffff',
             icon: 'static/logo-512.png', // must be provided like 'src/favicon.png'
             msTileImage: '',
-            msTileColor: '#666600'
+            msTileColor: '#10c186'
         }
     },
     {
