@@ -16,7 +16,7 @@ El HTML es el código subyacente utilizado para crear páginas web. Los motores 
 
 Go in the **Docs** section and click **Create** to add a new page to your documentation. The default front matter template contains `title`, `date` and `slug`fields. You can add new ones by editing the front matter template.
 
-## CTR
+### CTR
 
 El CTR (del acrónimo ingles Click-through rate) es un concepto increíblemente importante en el ranking de los motores de búsqueda. La definición más simple para describirlo es que es el porcentaje de gente que clican en tu resultado de búsqueda después de verlo.
 

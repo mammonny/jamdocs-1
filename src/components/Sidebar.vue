@@ -1,14 +1,14 @@
 <template>
     <aside class="sidebar" :class="{'sidebar--open' : this.$store.state.sidebarOpen}">
-      <nav>
+      <nav> 
         <ul>
           <li class="section" v-for="{ node } in $static.menu.edges" :key="node.id">
-            <h3 class="section-title">{{node.section}}</h3>
+            <p class="section-title">{{node.section}} {{node.slug}} </p>
             <ul>
               <li v-for="item in node.topics" :key="item.title">
                 <g-link class="topic" :to="'/' + item.slug">{{item.title}}</g-link>
                 <ul v-if="checkAnchors(node.slug, item.slug)" v-for="{ node } in $static.docs.edges" :key="node.id">
-                  <li v-for="heading in node.headings" :key="heading.value">
+                    <li v-if="$route.path  === '/' + item.slug" v-for="heading in node.headings" :key="heading.value">
                     <a class="sub-topic" :href="'/' + item.slug + heading.anchor">{{heading.value}}</a>
                   </li>
                 </ul>
@@ -18,8 +18,12 @@
         </ul>
         <GitLink class="git" />
       </nav>
+      
     </aside>
+
 </template>
+
+
 
 <static-query>
 query Menu {
@@ -38,7 +42,7 @@ query Menu {
     edges {
       node {
         slug
-        headings {
+        headings(depth:h2) {
           value
           anchor
         }
@@ -178,11 +182,12 @@ ul {
 }
 
 .sub-topic {
+  font-weight: 600;
   font-size: .875rem;
   position: relative;
   opacity: .8;
-
-  &::after {
+  margin-left: 15px;
+    &::after {
     content: '';
     transition: opacity .15s ease-in-out;
     width: 6px;
